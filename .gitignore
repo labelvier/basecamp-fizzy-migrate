@@ -1,0 +1,17 @@
+node_modules/
+.env
+*.log
+dist/
+coverage/
+.DS_Store
+
+# Don't commit user configs
+config.json
+.bc-fizzy-migrate/
+
+# Migration state files
+migrations/
+*.migration.json
+
+# Test artifacts
+.vitest/
